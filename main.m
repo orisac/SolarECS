@@ -6,9 +6,8 @@ close all; clc
 
 % Load file containing experimental data for each experimental conditions,
 % including mean values and error bars
-addpath("code/mcmcstat-master")
-addpath('data')
-load("data/ECSData.mat") 
+addpath("mcmcstat-master")
+load("ECSData.mat") 
 
 % Normalize all concentrations with respect to the initial anode
 % concentration
